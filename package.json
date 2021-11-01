@@ -1,5 +1,5 @@
 {
-  "name": "ops-react-components",
+  "name": "@tarttelin/ops-react-components",
   "version": "1.0.0",
   "description": "Common components",
   "main": "./build/index.js",
