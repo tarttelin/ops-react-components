@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 24">
+    <text style="fill: rgb(109, 122, 43); font-family: 'Assistant', sans-serif; font-size: 16px; font-weight: 600;" x="8" y="20">
+    Py
+    </text>
+    <text style="fill: rgb(185, 49, 39); font-family: 'Assistant', sans-serif; font-size: 16px; font-weight: 600;" x="27" y="20">
+    Ruby
+    </text>
+    <rect x="1" y="1" width="2.5" height="2.5" style="fill: rgb(109, 122, 43);"/>
+    <rect x="1" y="7" width="2.5" height="2.5" style="fill: rgb(109, 122, 43);"/>
+    <rect x="4" y="4" width="2.5" height="2.5" style="fill: rgb(109, 122, 43);"/>
+    <rect x="7" y="1" width="2.5" height="2.5" style="fill: rgb(185, 49, 39);"/>
+    <rect x="7" y="4" width="2.5" height="2.5" style="fill: rgb(185, 49, 39);"/>
+</svg>
