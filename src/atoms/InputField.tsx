@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const StyledInput = styled.input`
 
@@ -20,20 +20,17 @@ padding: 0.25rem 0 0.375rem 0
 &:focus {
     border-color: lightgreen;
 }
-`
+`;
 
 interface InputFieldProps extends React.InputHTMLAttributes<HTMLInputElement> {
-    id: string
+  id: string;
 }
 
 class InputField extends React.Component<InputFieldProps> {
-
-    render() {
-        const {id, type = 'text'} = this.props;
-        return (
-            <StyledInput type={type} id={id}/>
-        )
-    }
+  render() {
+    const { id, type = "text" } = this.props;
+    return <StyledInput type={type} id={id} />;
+  }
 }
 
 export default InputField;
