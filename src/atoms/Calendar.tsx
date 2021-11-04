@@ -230,7 +230,7 @@ const CalendarCell: React.FC<CalendarCellProps> = ({ date, activeDate }) => {
     status = "active";
   }
   return (
-    <StyledCalendarCell status={status}>
+    <StyledCalendarCell status={status} data-testid="calendar-cell">
       <h2>{date.format("D")}</h2>
     </StyledCalendarCell>
   );
