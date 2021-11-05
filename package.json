@@ -1,6 +1,6 @@
 {
   "name": "@tarttelin/ops-react-components",
-  "version": "1.0.0",
+  "version": "0.1.4",
   "description": "Common components",
   "main": "./build/index.js",
   "module": "./build/index.es.js",
