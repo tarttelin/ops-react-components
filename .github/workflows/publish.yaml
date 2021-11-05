@@ -18,6 +18,7 @@ jobs:
           # Defaults to the user or organization that owns the workflow file
           scope: '@tarttelin'
       - run: npm install
+      - run: npm version ${GITHUB_REF#refs/tags/}
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
