@@ -1,7 +1,0 @@
-node_modules
-package-lock.json
-.storybook
-
-src
-.eslintrc
-jest.config.js

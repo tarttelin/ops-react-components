@@ -2,15 +2,20 @@
   "name": "@tarttelin/ops-react-components",
   "version": "0.1.4",
   "description": "Common components",
-  "main": "index.js",
-  "module": "index.es.js",
+  "main": "./build/index.js",
+  "module": "./build/index.es.js",
+  "files": [
+    "build/*",
+    "package.json",
+    "README.md",
+    ".npmrc"
+  ],
   "scripts": {
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "bundle": "rollup -c",
-    "copy": "cp package.json build/ && cp README.md build/ && cp .npmrc build/",
-    "build": "npm run bundle && npm run copy",
+    "build": "npm run bundle",
     "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix"
   },
   "repository": {
