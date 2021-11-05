@@ -2,8 +2,8 @@
   "name": "@tarttelin/ops-react-components",
   "version": "0.1.4",
   "description": "Common components",
-  "main": "./build/index.js",
-  "module": "./build/index.es.js",
+  "main": "index.js",
+  "module": "index.es.js",
   "scripts": {
     "test": "jest",
     "storybook": "start-storybook -p 6006",
