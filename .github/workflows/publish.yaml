@@ -22,8 +22,8 @@ jobs:
             git config --global user.name "$(git --no-pager log --format=format:'%an' -n 1)"
             git config --global user.email "$(git --no-pager log --format=format:'%ae' -n 1)"
       - run: npm install
-      - run: npm run build
       - run: npm version ${GITHUB_REF#refs/tags/}
+      - run: npm run build
       - run: npm publish build/
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
